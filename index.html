@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>GR Assignment</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
+
+    <!-- jQuery stylesheet -->
+    <link href="vendor/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    
+    <!-- Moment.js -->
+    <script src="vendor/moment/moment.min.js"></script>
+
+    <!-- Main CSS -->
+    <link href="css/main.min.css" rel="stylesheet">
+
+    <!-- Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100, 300" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-xs-12">
+            <input type="text" onkeypress="keyPress(event)" id="searchBox" placeholder="Search Twitter"/>
+            <button onclick="getTweets()" id="searchButton">🔎</button>
+            <h2 id="appHeader">Tweet Saver</h2>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-xs-6" id="searchList">
+        <p id="searchHelp">Remember: Drag tweet to right column to save!</p>
+        <!-- Dynamically create the list using jQuery
+            once we have a list of tweets -->
+    </div>
+    <div class="col-xs-6" id="saveList">
+        <p class="searchHeader">Saved Tweets</p>
+    </div> 
+</div>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>

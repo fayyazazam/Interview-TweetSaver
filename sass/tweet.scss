@@ -1,0 +1,53 @@
+/** AKA styling for each tweet **/
+li {
+	list-style-type:none;
+	min-height: 100px;
+	padding: 10px 0 10px;
+	border-bottom: 1px solid #ddd;
+	font-size: 12px;
+	border-top: 1px solid transparent;
+}
+
+/** Profile picture of each tweeter **/
+img {
+	height: 60px;
+	display: inline-block;
+}
+
+/** Container for the profile picture **/
+.tweeterPic {
+	float: left;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+
+/** Name of each tweeter **/
+.tweetName {
+	display: inline-block;
+	padding-right: 10px;
+}
+
+/** Twitter handle **/
+.tweetHandle {
+	display: inline-block;
+	font-weight: normal;
+	color: #657786;
+}
+
+/** Time of tweet **/
+.tweetTime {
+	display: inline-block;
+	font-weight: normal;
+	margin-top: 14px;
+	position: absolute;
+	right: 0;
+}
+
+/** Style while dragging the tweet**/
+#searchList .ui-draggable-dragging {
+	z-index: 999;
+	border-bottom: 1px solid #00aced;
+	border-top: 1px solid #00aced;
+	background-color: white;
+	
+}
