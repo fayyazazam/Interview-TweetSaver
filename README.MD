@@ -1,4 +1,5 @@
-## App made under 24 hours for an interview
+## TweetSaver 
+- App made under 24 hours for an interview
 - Allows you to search twitter (real-time), receive top 10 results, and allows you to drag the tweet and save it to localStorage.
 
 ### To run the app:
